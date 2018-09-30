@@ -6,9 +6,9 @@ def key_for_min_value(name_hash)
     return nil 
   end
   smallest = INFINITY
-  name_hash.each do |key, value|
-    if value < smallest
-      key = smallest_key
+  name_hash.each do |k, v|
+    if v < smallest
+      k = smallest_key
   end
 end
 smallest_key
