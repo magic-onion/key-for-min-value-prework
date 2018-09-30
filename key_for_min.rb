@@ -5,7 +5,7 @@ def key_for_min_value(name_hash)
   if name_hash.empty? === true 
     return nil 
   end
-  smallest = INFINITY
+  smallest = 10000000
   name_hash.each do |k, v|
     if v < smallest
       k = smallest_key
